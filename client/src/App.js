@@ -17,7 +17,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    axios.get('http://localhost:5050/api/portfolio')
+    axios.get('https://portfolio-b1jb.onrender.com/api/portfolio')
       .then((res) => setPortfolio(res.data))
       .catch((err) => console.error('API Error:', err));
   }, []);
