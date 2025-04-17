@@ -95,6 +95,24 @@ const portfolioData = {
         github: "https://github.com/ShresthShri/drone-flight-opt",
       },
       {
+        title: "Voya – Travel and Itinerary Website",
+        tech: ["React", "Supabase", "LangChain", "OpenAI", "Azure", "Microservices"],
+        description: "Co-developed Voya Trips, a swipe-based travel planning platform that generates personalized itineraries using LLM-powered recommendations. Integrated Supabase, LangChain, Azure Cloud, and APIs from OpenAI and Perplexity to deliver seamless trip discovery with intelligent suggestions.",
+        github: "https://github.com/travelator" // update if hosted elsewhere
+      },      
+      {
+        title: "Zero Knowledge Proof Blockchain Trading Algorithm",
+        tech: ["Blockchain", "Zero-Knowledge Proofs", "Hackathon", "Privacy Tech"],
+        description: "Engineered a zero-knowledge proof algorithm designed to enable anonymous trading over blockchain. Built in a team during a hackathon, achieving 4th place overall for innovation and implementation.",
+        github: "https://github.com/ShresthShri/imperial-college-hackathon" // use real repo if it exists
+      },
+      {
+        title: "Automated Trading Bot",
+        tech: ["Python", "API Integration", "Market Data", "Algo Trading"],
+        description: "Developed a Python-based trading bot that executes trades based on real-time market data. Integrated APIs from major financial platforms to analyze price movements and make autonomous buy/sell decisions.",
+        github: "https://github.com/ShresthShri/TradingBot" // use real repo if it exists
+      },
+      {
         title: "Cargo Ship Classifier",
         tech: ["PyTorch", "ML", "Satellite Imagery"],
         description: "Classified ships using satellite images with 95% accuracy using supervised learning.",
@@ -108,7 +126,7 @@ const portfolioData = {
     skills: [
       "Python", "C++", "JavaScript", "PostgreSQL",
       "PyTorch", "TensorFlow", "MATLAB", "Simulink",
-      "SolidWorks", "Azure", "Jira"
+      "SolidWorks", "Azure", "Jira", "React", "TailWindCSS"
     ]
   };
   
