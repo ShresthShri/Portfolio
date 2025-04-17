@@ -14,7 +14,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-4 right-4 z-50">
+    <nav className="fixed top-4 right-7 z-50">
       {/* Animated Hamburger Button */}
       <button
         className="relative w-8 h-8 focus:outline-none z-50"
