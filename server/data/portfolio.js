@@ -38,15 +38,52 @@ const portfolioData = {
           "Contributed to R&D of next-gen aerospace systems, integrating aerodynamics with system modeling."
         ]
       },
+
+        {
+        company: "Stars Edge",
+        title: "Business Development Representative – Freelance",
+        dates: "Oct 2023 – Sept 2024",
+        points: [
+          "Conducted comprehensive market research to identify potential clients, competitors, and trends in the space propulsion industry.",
+          "Generated leads through networking, events, and cold outreach, converting them into sales opportunities.",
+          "Built and maintained relationships with investors, stakeholders, and academics to foster collaboration and strategic engagement.",
+          "Created compelling proposals, presentations, and pitch decks, raising nearly £10,500 in early-stage funding."
+        ]
+      },
       {
         company: "BAE Systems",
-        title: "Through Life Support Engineer & ML Engineer",
+        title: "Through Life Support Engineer",
         dates: "July 2021 – June 2022",
         points: [
-          "Built ML models for aircraft sensor data classification in TensorFlow and PyTorch.",
-          "Developed supervised models for satellite image segmentation with 95%+ accuracy.",
-          "Automated report generation and analytics dashboards for engineering teams.",
-          "Collaborated across departments to improve predictive maintenance workflows."
+          "Expanded and constructed the framework of skills for incoming Through Life Support Engineers.",
+          "Supported life-cycle engineering documentation and reliability assessments for ongoing aircraft platforms."
+        ]
+      },
+      {
+        company: "BAE Systems",
+        title: "Data Scientist (ML for Testing)",
+        dates: "July 2021 – June 2022",
+        points: [
+          "Improved and accelerated Electromagnetic testing procedures using regression ML (88% accuracy) in Python with TensorFlow.",
+          "Presented ML results and cost-saving impact to internal stakeholders, demonstrating ROI over physical testing."
+        ]
+      },
+      {
+        company: "BAE Systems",
+        title: "Flight Systems Integration Engineer",
+        dates: "July 2021 – June 2022",
+        points: [
+          "Managed clearance documents and collaborated with systems engineers in the Eurofighter General Systems Integration team.",
+          "Directed engineers on DOORS software usage for effective requirements management and tracking."
+        ]
+      },
+      {
+        company: "BAE Systems",
+        title: "Machine Learning Engineer – Satellite Imagery",
+        dates: "July 2021 – June 2022",
+        points: [
+          "Implemented supervised ML in PyTorch to classify cargo ships in satellite imagery with 95% accuracy.",
+          "Presented findings and commercial potential to executives, resulting in project funding and expansion."
         ]
       }
     ],
