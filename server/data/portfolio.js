@@ -11,20 +11,27 @@ const portfolioData = {
         "If you’re passionate about thoughtful problem-solving, fascinated by the interface between software and the physical world, or just curious to connect — I’d love to hear from you."
       ],      
       github: "https://github.com/ShresthShri",
-      linkedin: "https://linkedin.com/in/shresthshrivastava",
+      linkedin: "https://www.linkedin.com/in/shresth-shrivastava/",
     },
     education: [
       {
         institution: "Imperial College London",
         degree: "MSc Computing",
         dates: "Sept 2024 – Sept 2025",
-        details: "Highlighted Modules: ML, Computer Vision, Distributed Ledgers, Software Engineering. Dissertation: Adversarial ML for Drone Navigation Security.",
+        points: [
+          "Relevant Modules: Machine Learning, Software Engineering, Distributed Ledgers, and Computer Vision.",
+          "Dissertation: Adversarial Machine Learning for Drone Navigation Security."
+        ]
       },
       {
         institution: "University of Manchester",
-        degree: "MEng Aerospace Engineering with Industrial Exp",
+        degree: "MEng Aerospace Engineering with Industrial Experience",
         dates: "Sept 2018 – July 2023",
-        details: "Final year project: Regression ML model for aerodynamic flow prediction (Python + MATLAB). Ranked 2nd in Bachelors year.",
+        points: [
+          "Final Year Project: Regression model for aerodynamic flow prediction (Python + MATLAB).",
+          "Industrial year at BAE Systems with roles in ML, system integration, and flight clearance.",
+          "Ranked 2nd overall in Bachelor's year."
+        ]
       }
     ],
     experience: [
@@ -97,7 +104,8 @@ const portfolioData = {
       {
         title: "Voya – Travel and Itinerary Website",
         tech: ["React", "Supabase", "LangChain", "OpenAI", "Azure", "Microservices"],
-        description: "Co-developed Voya Trips, a swipe-based travel planning platform that generates personalized itineraries using LLM-powered recommendations. Integrated Supabase, LangChain, Azure Cloud, and APIs from OpenAI and Perplexity to deliver seamless trip discovery with intelligent suggestions.",
+        description: ["Co-developed Voya Trips, a swipe-based travel planning platform that generates personalized itineraries using LLM-powered recommendations.", 
+                      "Integrated Supabase, LangChain, Azure Cloud, and APIs from OpenAI and Perplexity to deliver seamless trip discovery with intelligent suggestions."],
         github: "https://github.com/travelator" // update if hosted elsewhere
       },      
       {
