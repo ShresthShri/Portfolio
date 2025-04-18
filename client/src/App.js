@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [portfolio, setPortfolio] = useState(null);
