@@ -64,6 +64,7 @@ function App() {
           />} />
         </Routes>
       </AnimatePresence>
+      <Analytics />
     </div>
   );
 }
