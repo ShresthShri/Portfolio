@@ -3,13 +3,12 @@ const portfolioData = {
       name: "Shresth Shrivastava",
       email: "shresthshrivastava5@gmail.com",
       summary: [
-        "As a software engineer and creative technologist, I’m driven by a desire to build elegant, impactful solutions — whether it’s through technical systems or thoughtful design. With a strong foundation in Computer Systems, Machine Learning, and Object-Oriented Design, I’ve applied my skills across academic, entrepreneurial, and personal projects.",
-        "I originally come from an Aerospace Engineering background, where I developed a deep appreciation for precision, system integration, and high-stakes problem-solving. That experience continues to influence how I think about software — especially in domains like autonomous systems, simulation, and embedded computing.",
-        "I’m particularly interested in the intersection of aerospace and advanced computing, and how real-time systems, control theory, and AI come together in critical environments.",
-        "My journey since has included building scalable web applications, experimenting with cloud infrastructure, and exploring systems design through technologies like Python, C++, React, and even Pentium assembly. I enjoy crafting full-stack projects that are as performant as they are intuitive — and I take pride in bridging the gap between backend logic and frontend experience.",
-        "In 2024, I began my MSc in Computing at Imperial College London to deepen my expertise in core computing principles and explore career paths in intelligent systems, quant development, or product-focused engineering.",
-        "If you’re passionate about thoughtful problem-solving, fascinated by the interface between software and the physical world, or just curious to connect — I’d love to hear from you."
-      ],      
+        "I'm a Lead Software Engineer at Celestia Energy, where I develop critical software architecture for drone communication, tracking, and safety systems. I recently completed my MSc in Computing with Distinction at Imperial College London, focusing on adversarial machine learning for autonomous drone navigation security.",
+        "With a background in Aerospace Engineering (MEng, First Class, ranked 2nd) from the University of Manchester, I've worked across the aerospace-software spectrum — from flight systems integration at BAE Systems to building ML models for satellite imagery analysis and electromagnetic testing optimization.",
+        "I specialize in the intersection of aerospace and advanced computing: autonomous systems, reinforcement learning, real-time control systems, and safety-critical software. My tech stack spans Python, C++, PyTorch, React, and embedded systems (MAVLink, PX4, QGroundControl).",
+        "I'm passionate about building elegant solutions at the intersection of software and the physical world — whether it's optimizing drone flight paths, securing RL-based navigation systems, or developing full-stack applications for travel planning and fintech. I'm particularly interested in intelligent systems, quantitative development, and applications of game theory and philosophy to technical problem-solving.",
+        "If you're working on autonomous systems, ML security, or just want to discuss the intersection of aerospace and AI — I'd love to connect."
+      ],
       github: "https://github.com/ShresthShri",
       linkedin: "https://www.linkedin.com/in/shresth-shrivastava/",
     },
@@ -36,6 +35,17 @@ const portfolioData = {
     ],
     experience: [
       {
+        company: "Celestia Energy",
+        title: "Lead Software Engineer",
+        dates: "Sept 2025 – Present",
+        points: [
+          "Developed the software architecture for Drone Communication, tracking and safety critical flows.",
+          "Worked with MAVLink, PX4, SITL and QGroundControl for drone simulation testing.",
+          "Built a full stack architecture system for ground to drone communication.",
+          "Implemented software modules involving integrity, communication and safety system monitoring."
+        ]
+      },
+      {
         company: "Stars Edge",
         title: "Design and Development Engineer – Freelance",
         dates: "Oct 2023 – Sept 2024",
@@ -45,8 +55,7 @@ const portfolioData = {
           "Contributed to R&D of next-gen aerospace systems, integrating aerodynamics with system modeling."
         ]
       },
-
-        {
+      {
         company: "Stars Edge",
         title: "Business Development Representative – Freelance",
         dates: "Oct 2023 – Sept 2024",
@@ -68,11 +77,11 @@ const portfolioData = {
       },
       {
         company: "BAE Systems",
-        title: "Data Scientist (ML for Testing)",
+        title: "Data Scientist",
         dates: "July 2021 – June 2022",
         points: [
-          "Improved and accelerated Electromagnetic testing procedures using regression ML (88% accuracy) in Python with TensorFlow.",
-          "Presented ML results and cost-saving impact to internal stakeholders, demonstrating ROI over physical testing."
+          "Improved and accelerated the efficiency of Electromagnetic testing procedures on an aircraft using a regression ML model (88% accuracy) developed in Python and in collaboration with test engineers.",
+          "Presented project findings, and the market opportunity for ML to stakeholders presenting the results and the cost saving benefit of using ML to predict test data instead of undertaking physical testing."
         ]
       },
       {
@@ -80,21 +89,27 @@ const portfolioData = {
         title: "Flight Systems Integration Engineer",
         dates: "July 2021 – June 2022",
         points: [
-          "Managed clearance documents and collaborated with systems engineers in the Eurofighter General Systems Integration team.",
-          "Directed engineers on DOORS software usage for effective requirements management and tracking."
+          "Coordinated and managed clearance documents alongside system engineers while working in the General Systems Integration Team in the Eurofighter Team.",
+          "Directed and guided team members in the utilisation of the DOORS software for requirements management."
         ]
       },
       {
         company: "BAE Systems",
-        title: "Machine Learning Engineer – Satellite Imagery",
+        title: "Junior Stretch Assignment – Machine Learning Engineer",
         dates: "July 2021 – June 2022",
         points: [
-          "Implemented supervised ML in PyTorch to classify cargo ships in satellite imagery with 95% accuracy.",
-          "Presented findings and commercial potential to executives, resulting in project funding and expansion."
+          "Developed a supervised ML system classifying cargo ships using satellite images with the PyTorch framework, for a stretch assignment project achieving an astounding accuracy of 95%.",
+          "Presented project findings, and the market opportunity for ML to organisations, culminating in the project being funded and expanded."
         ]
       }
     ],
     projects: [
+      {
+        title: "Securing RL-Based Drone Navigation Against Reward Manipulation",
+        tech: ["Python", "Reinforcement Learning", "Adversarial ML", "Drone Security"],
+        description: "MSc dissertation investigating adversarial attacks on reinforcement learning models for autonomous drone navigation. Developed defense mechanisms to detect and mitigate reward manipulation attacks in safety-critical systems.",
+        github: null,
+      },
       {
         title: "Drone Flight Optimisation",
         tech: ["Python", "LiDAR", "A*", "Geospatial Data"],
@@ -104,9 +119,8 @@ const portfolioData = {
       {
         title: "Voya – Travel and Itinerary Website",
         tech: ["React", "Supabase", "LangChain", "OpenAI", "Azure", "Microservices"],
-        description: ["Co-developed Voya Trips, a swipe-based travel planning platform that generates personalized itineraries using LLM-powered recommendations.", 
-                      "Integrated Supabase, LangChain, Azure Cloud, and APIs from OpenAI and Perplexity to deliver seamless trip discovery with intelligent suggestions."],
-        github: "https://github.com/travelator" // update if hosted elsewhere
+        description: "Co-developed Voya Trips, a swipe-based travel planning platform that generates personalized itineraries using LLM-powered recommendations. Integrated Supabase, LangChain, Azure Cloud, and APIs from OpenAI and Perplexity to deliver seamless trip discovery with intelligent suggestions.",
+        github: "https://github.com/travelator"
       },      
       {
         title: "Zero Knowledge Proof Blockchain Trading Algorithm",
@@ -132,9 +146,10 @@ const portfolioData = {
       }
     ],
     skills: [
-      "Python", "C++", "JavaScript", "PostgreSQL",
-      "PyTorch", "TensorFlow", "MATLAB", "Simulink",
-      "SolidWorks", "Azure", "Jira", "React", "TailWindCSS"
+      "Python", "C++", "HTML", "CSS", "SQL", "JavaScript", "React",
+      "PyTorch", "Power BI", "TensorFlow", "Angular",
+      "MATLAB", "Simulink", "LabVIEW", "Catia",
+      "SolidWorks", "Azure", "DOORS", "Jira", "Tailwind CSS"
     ]
   };
   
